@@ -1,0 +1,35 @@
+
+
+.team-main{
+    background-image: url("../assets/images/body-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-hero{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0px; 
+}
+.gemers{
+    padding-bottom: 5%;
+}
+.team-hero p{
+    width: 50%;
+    line-height: 30px;
+}
+.player-name{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+   
+}
+.player-name h2{
+    font-size: 18px;
+   
+}

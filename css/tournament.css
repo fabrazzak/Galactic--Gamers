@@ -1,0 +1,55 @@
+
+.match-main{
+   padding-top: 5% ;
+   margin: 20px;
+
+}
+.match-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    padding-bottom: 30px; 
+   
+
+}
+.match-container img{
+   max-width: 100% ;   
+
+}
+.point-table img{
+     max-width: 100% ; 
+     padding: 20px ; 
+
+
+}
+
+
+.match-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+}
+
+.match-time h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .match-time h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}  .match-time p{
+    font-size: 11px;
+    color: white;
+    margin-bottom: 15px;
+}
+.tour-text{
+    width: 100% !important;
+}
+
+
+}
